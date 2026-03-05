@@ -1,7 +1,7 @@
 # unsupervised_clustering
 This app has been built using Streamlit and deployed with Streamlit community cloud
 
-https://yingchun-gao-real-estate-price-prediction.streamlit.app/
+https://yingchun-gao-unsupervised-clustering-app.streamlit.app/
 
 This project applies KMeans clustering to segment mall customers based on their behavior. The goal is to identify groups of customers with similar characteristics so businesses can better understand purchasing patterns.
 
