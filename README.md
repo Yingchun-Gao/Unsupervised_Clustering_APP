@@ -1,29 +1,38 @@
-# unsupervised_clustering
-This app has been built using Streamlit and deployed with Streamlit community cloud
+# Mall Customer Segmentation (Unsupervised Clustering)
+
+This project is deployed as an interactive Streamlit application:
 
 https://yingchun-gao-unsupervised-clustering-app.streamlit.app/
 
-This project applies KMeans clustering to segment mall customers based on their behavior. The goal is to identify groups of customers with similar characteristics so businesses can better understand purchasing patterns.
+This application segments mall customers using **KMeans clustering**.  
+The goal is to identify groups of customers with similar purchasing behavior.  
+These segments can help businesses better understand customer profiles and target marketing strategies.
 
 ## Features
-- Data preprocessing pipeline
-- Feature scaling for clustering
+
+- Complete data preprocessing pipeline
+- Feature scaling using StandardScaler
 - KMeans clustering model
-- Elbow method and Silhouette score for cluster evaluation
+- Cluster evaluation using Elbow Method and Silhouette Score
 - Visualization of customer segments
-- Interactive Streamlit application
+- Interactive Streamlit dashboard
 
 ## Dataset
-Features used for clustering:
-- Age - Age of the customer
-- Annual Income - Annual income in thousands
-- Spending Score - Score assigned based on spending behavior
 
-The Customer_ID column is removed during preprocessing because it has no analytical value.
+The dataset contains mall customer information.
+
+Features used for clustering:
+
+- **Age** – Age of the customer
+- **Annual Income** – Annual income (in thousands)
+- **Spending Score** – Score assigned based on spending behavior
+
+The **Customer_ID** column is removed during preprocessing because it has no analytical value.
 
 ## Technologies Used
-- **Streamlit** - Web application interface
-- **Scikit-learn** - Model training and evaluation
-- **Pandas** - Data preprocessing 
-- **NumPy** - Numerical operations
-- **Matplotlib** - Feature importance visualization
+
+- **Streamlit** – Web application interface
+- **Scikit-learn** – Clustering algorithm and evaluation
+- **Pandas** – Data preprocessing
+- **NumPy** – Numerical operations
+- **Matplotlib** – Data visualization

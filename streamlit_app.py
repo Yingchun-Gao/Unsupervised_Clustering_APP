@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from src.features.build_features import build_features
 from src.models.train_model import train_kmeans, assign_clusters
 
+
 st.set_page_config(page_title="Mall Customer Segmentation")
 
 st.title("Mall Customer Segmentation")
